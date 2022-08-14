@@ -1,0 +1,55 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #eff2f5;
+}
+
+.login__logo > svg {
+  height: 250px;
+  color: #151d21;
+}
+
+.login__logo > svg:hover {
+  animation: yourAnimation 3s infinite 0s ease;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > button {
+  width: 300px;
+  background-color: #c6cacf;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.login > button:hover {
+  background-color: honeydew;
+  color: #2e81f4;
+}
+
+@keyframes yourAnimation {
+  0% {
+  }
+  13% {
+    transform: rotate(xx) scale(0.75);
+  }
+  26% {
+    transform: rotate(xx) scale(0.5);
+  }
+  41% {
+    transform: rotate(xx) scale(0.5);
+    color: #2e81f4;
+  }
+  56% {
+    transform: rotate(xx) scale(0.75);
+    color: #2e81f4;
+  }
+  70% {
+    transform: rotate(xx) scale(1);
+    color: #2e81f4;
+  }
+}
